@@ -49,7 +49,7 @@ def get_data(start_date, end_date, symbol):
     
     return df.to_csv(r'C:\education\ml-dev\project\binanceCSV\csv\BTC_0114_1m.csv',  index=False)
 
-start_date = '2024-1-14'
-end_date = '2024-1-14'
+start_date = '2024-1-15'
+end_date = '2024-1-15'
 symbol = symbols_usdt[0]
 get_data(start_date, end_date, symbol)
